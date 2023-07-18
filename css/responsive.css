@@ -50,6 +50,23 @@
         margin-right: 5px;
         font-size: 20px;
     }
+
+    .we-are-gamer-section {
+        padding: 50px 0;
+    }
+
+    .gamer-wrapper {
+        flex-direction: column;
+    }
+    
+    .gamer-photo {
+        width: 100%;
+    }
+    
+    .gamer-content {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
@@ -69,5 +86,22 @@
 
     .banner-wrapper {
         flex-direction: column-reverse;
+    }
+
+    .we-are-gamer-section {
+        padding: 50px 0;
+    }
+
+    .gamer-wrapper {
+        flex-direction: column;
+    }
+    
+    .gamer-photo {
+        width: 100%;
+    }
+    
+    .gamer-content {
+        width: 100%;
+        text-align: center;
     }
 }
