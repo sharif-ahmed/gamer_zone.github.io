@@ -1,11 +1,24 @@
 
 /* Mobile Device */
 @media screen and (max-width:576px) {
-    
+    .navbar-wrapper{
+        flex-direction: column;
+    }
+
+    .main-menu ul {
+        flex-direction: column;
+        margin-top: 32px;
+    }
 }
 
 
 /* Tablet Device */
 @media screen and (min-width:576px) and (max-width:768px) {
-    
+    .navbar-wrapper{
+        flex-direction: column;
+    }
+
+    .main-menu ul {
+        margin-top: 32px;
+    }
 }
