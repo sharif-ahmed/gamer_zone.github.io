@@ -67,6 +67,18 @@
         width: 100%;
         text-align: center;
     }
+
+    .games-videos-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
 }
 
 
@@ -103,5 +115,9 @@
     .gamer-content {
         width: 100%;
         text-align: center;
+    }
+
+    .games-videos-wrapper {
+        grid-template-columns: repeat(2,1fr);
     }
 }
