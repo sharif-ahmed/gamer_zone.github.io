@@ -132,6 +132,33 @@
         right: -50px;
         bottom: -70px;
     }
+
+
+
+    .career-section {
+        background-image: none;
+    }
+
+    .career-wrapper {
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .career-content {
+        width: 100%;
+    }
+    .career-photo {
+        width: 100%;
+        padding: 40px;
+        background-image: url("../img/career-bg.png");
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .career-vacancy-wrapper p {
+        font-size: 18px;
+    }
 }
 
 
@@ -252,5 +279,30 @@
     .play-games-instant-section br,
     .play-games-online-section br {
         display: none;
+    }
+
+    .career-section {
+        background-image: none;
+    }
+
+    .career-wrapper {
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .career-content {
+        width: 100%;
+    }
+    .career-photo {
+        width: 100%;
+        padding: 40px;
+        background-image: url("../img/career-bg.png");
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .career-vacancy-wrapper p {
+        font-size: 18px;
     }
 }
