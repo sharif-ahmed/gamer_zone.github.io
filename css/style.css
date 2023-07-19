@@ -277,7 +277,7 @@ img {
 
 .game-photo {
     position: relative;
-    border-radius: 15px;
+    border-radius: 16px;
 }
 
 .game-photo .game-img::before {
@@ -285,11 +285,11 @@ img {
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 4px;
+	bottom: 0;
     content: "";
 	opacity: 0;
 	visibility: hidden;
-    border-radius: 15px;
+    border-radius: 16px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
 }
 
@@ -333,8 +333,53 @@ img {
 }
 
 .game-photo:hover {
-    border: 2px solid #F948B2;
+    border: 3px solid #F948B2;
+}
+
+/* PLAY GAMES SECTION CSS */
+
+.play-games-instant-section,
+.play-games-online-section {
+    padding: 100px 0;
+}
+
+.play-games-wrapper,
+.play-games-online-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.play-games-content {
+    width: 50%;
+    text-align: right;
+}
+
+.play-games-photo {
+    width: 50%;
+    position: relative;
+}
+
+.play-small-img {
+    left: -150px;
+    bottom: -100px;
+    position: absolute;
+}
+
+.play-games-instant-section .section-title,
+.play-games-instant-section .section-description {
+    text-align: right;
+}
+
+.play-games-online-section .section-title,
+.play-games-online-section .section-description {
+    text-align: left;
 }
 
 
+.play-small-right-img {
+    position: absolute;
+    right: -150px;
+    bottom: -100px;
+}
 

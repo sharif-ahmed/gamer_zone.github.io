@@ -1,4 +1,3 @@
-
 /* Mobile Device */
 @media screen and (max-width:576px) {
 
@@ -6,7 +5,7 @@
         box-shadow: none;
     }
 
-    .navbar-wrapper{
+    .navbar-wrapper {
         flex-direction: column;
     }
 
@@ -37,15 +36,15 @@
     .banner-content h4 {
         font-size: 45px;
     }
-    
+
     .banner-content h2 {
         font-size: 90px;
     }
-    
+
     .banner-content p {
         font-size: 18px;
     }
-    
+
     .banner-content p i {
         margin-right: 5px;
         font-size: 20px;
@@ -58,11 +57,11 @@
     .gamer-wrapper {
         flex-direction: column;
     }
-    
+
     .gamer-photo {
         width: 100%;
     }
-    
+
     .gamer-content {
         width: 100%;
         text-align: center;
@@ -70,6 +69,7 @@
 
     .games-videos-wrapper {
         grid-template-columns: 1fr;
+        gap: 40px;
     }
 
     .section-title {
@@ -79,12 +79,65 @@
     .section-description {
         font-size: 14px;
     }
+
+    .play-games-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .play-games-online-section .play-games-wrapper {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .play-games-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-games-photo {
+        width: 100%;
+    }
+
+    .play-games-instant-section .section-title,
+    .play-games-instant-section .section-description {
+        text-align: center;
+    }
+
+    .play-games-online-section .section-title,
+    .play-games-online-section .section-description {
+        text-align: center;
+    }
+
+    .play-small-img img,
+    .play-small-right-img{
+        width: 50%;
+    }
+
+    .play-games-instant-section,
+    .play-games-online-section {
+        padding-top:20px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .play-small-img {
+        left: -50px;
+        bottom: -70px;
+        position: absolute;
+    }
+    
+    .play-small-right-img {
+        position: absolute;
+        right: -50px;
+        bottom: -70px;
+    }
 }
 
 
 /* Tablet Device */
 @media screen and (min-width:577px) and (max-width:768px) {
-    .navbar-wrapper{
+    .navbar-wrapper {
         flex-direction: column;
     }
 
@@ -107,17 +160,97 @@
     .gamer-wrapper {
         flex-direction: column;
     }
-    
+
     .gamer-photo {
         width: 100%;
     }
-    
+
     .gamer-content {
         width: 100%;
         text-align: center;
     }
 
     .games-videos-wrapper {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+
+    .gamer-wrapper {
+        flex-direction: column;
+    }
+
+    .gamer-photo {
+        width: 100%;
+    }
+
+    .gamer-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
+
+    .play-games-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .play-games-online-section .play-games-wrapper {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .play-games-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-games-photo {
+        width: 100%;
+    }
+
+    .play-games-instant-section .section-title,
+    .play-games-instant-section .section-description {
+        text-align: center;
+    }
+
+    .play-games-online-section .section-title,
+    .play-games-online-section .section-description {
+        text-align: center;
+    }
+    
+    /* .play-small-img img,
+    .play-small-right-img{
+        width: 50%;
+    } */
+
+    .play-games-instant-section,
+    .play-games-online-section {
+        padding-top:20px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .play-small-img {
+        left: -50px;
+        bottom: -70px;
+        position: absolute;
+    }
+    
+    .play-small-right-img {
+        position: absolute;
+        right: -50px;
+        bottom: -70px;
+    }
+
+    .play-games-instant-section br,
+    .play-games-online-section br {
+        display: none;
     }
 }
