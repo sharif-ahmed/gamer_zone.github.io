@@ -30,9 +30,15 @@
         padding: 120px 35px;
     }
 
+    .button-wrapper {
+        display: flex;
+        gap: 15px;
+        margin-top: 50px;
+    }
+
     .btn-primary {
         font-size: 16px;
-        padding: 15px 25px;
+        padding: 15px 22px;
     }
 
     .banner-content h4 {
@@ -44,7 +50,7 @@
     }
 
     .banner-content p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .banner-content p i {
