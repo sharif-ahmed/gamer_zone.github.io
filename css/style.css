@@ -282,6 +282,12 @@ img {
 .game-photo {
     position: relative;
     border-radius: 16px;
+    
+}
+
+.game-photo .game-img {
+    height: 100%;
+    border: 3px solid #fff;
 }
 
 .game-photo .game-img::before {
@@ -289,12 +295,13 @@ img {
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	bottom: 3px;
     content: "";
 	opacity: 0;
 	visibility: hidden;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    border: 3px solid #F948B2;
 }
 
 .overlay-text {
@@ -336,9 +343,6 @@ img {
 	visibility: visible;
 }
 
-.game-photo:hover {
-    border: 3px solid #F948B2;
-}
 
 /* PLAY GAMES SECTION CSS */
 
