@@ -14,6 +14,7 @@
         margin-top: 32px;
     }
 
+    /* BANNER SECTION CSS START */
     .banner-section {
         background-image: none;
     }
@@ -50,6 +51,9 @@
         font-size: 20px;
     }
 
+    /* BANNER SECTION CSS END */
+
+    /* WE ARE GAMER SECTION CSS START */
     .we-are-gamer-section {
         padding: 50px 0;
     }
@@ -79,6 +83,10 @@
     .section-description {
         font-size: 14px;
     }
+
+    /* WE ARE GAMER SECTION CSS END */
+
+    /* PLAY ONLINE AND INSTANT SECTION CSS START */
 
     .play-games-wrapper {
         flex-direction: column;
@@ -110,13 +118,13 @@
     }
 
     .play-small-img img,
-    .play-small-right-img{
+    .play-small-right-img {
         width: 50%;
     }
 
     .play-games-instant-section,
     .play-games-online-section {
-        padding-top:20px;
+        padding-top: 20px;
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -126,7 +134,7 @@
         bottom: -70px;
         position: absolute;
     }
-    
+
     .play-small-right-img {
         position: absolute;
         right: -50px;
@@ -134,7 +142,7 @@
     }
 
 
-
+    /* CAREER SECTION CSS START */
     .career-section {
         background-image: none;
     }
@@ -143,10 +151,11 @@
         flex-direction: column;
         gap: 60px;
     }
-    
+
     .career-content {
         width: 100%;
     }
+
     .career-photo {
         width: 100%;
         padding: 40px;
@@ -158,6 +167,75 @@
 
     .career-vacancy-wrapper p {
         font-size: 18px;
+    }
+
+    /* CAREER SECTION CSS END */
+
+    /* GAME CATEGORY SCECTION CSS START */
+
+    .game-category-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+
+    .game-category-item {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        border-radius: 50px;
+        background: #FFF;
+        padding-left: 5px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid #fff;
+        transition: all 0.3s;
+
+    }
+
+    .game-category-item img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .game-category-item p {
+        font-size: 13px;
+    }
+
+    /* FOOTER SECTION CSS START */
+    .footer-content-wrapper p {
+        text-align: center;
+    }
+
+    .footer-menu ul {
+        column-gap: 14px;
+        justify-content: space-evenly;
+    }
+
+    .footer-menu ul li a {
+        font-size: 16px;
+    }
+
+    .footer-terms-qa ul {
+        gap: 5px;
+    }
+
+    .footer-terms-qa ul li a {
+        font-size: 14px;
+    }
+
+    .footer-social-link {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-content-wrapper p {
+        text-align: center;
+        padding: 0px 35px;
+        line-height: 26px;
+        font-size: 15px;
     }
 }
 
@@ -180,6 +258,8 @@
         flex-direction: column-reverse;
     }
 
+    /* WE ARE GAMER SECTION CSS START */
+
     .we-are-gamer-section {
         padding: 50px 0;
     }
@@ -196,6 +276,10 @@
         width: 100%;
         text-align: center;
     }
+
+    /* WE ARE GAMER SECTION CSS END */
+
+    /* GAMES VIDEOS SECTION CSS */
 
     .games-videos-wrapper {
         grid-template-columns: repeat(2, 1fr);
@@ -222,6 +306,10 @@
     .section-description {
         font-size: 14px;
     }
+
+    /* GAMES VIDEOS SECTION CSS END*/
+
+    /* PLAY GAMES INSTANT AND ONLINE SECTION CSS START */
 
     .play-games-wrapper {
         flex-direction: column;
@@ -251,7 +339,7 @@
     .play-games-online-section .section-description {
         text-align: center;
     }
-    
+
     /* .play-small-img img,
     .play-small-right-img{
         width: 50%;
@@ -259,7 +347,7 @@
 
     .play-games-instant-section,
     .play-games-online-section {
-        padding-top:20px;
+        padding-top: 20px;
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -269,7 +357,7 @@
         bottom: -70px;
         position: absolute;
     }
-    
+
     .play-small-right-img {
         position: absolute;
         right: -50px;
@@ -281,6 +369,10 @@
         display: none;
     }
 
+    /* PLAY GAMES INSTANT AND ONLINE SECTION CSS END */
+
+    /* CAREER SECTION CSS START */
+
     .career-section {
         background-image: none;
     }
@@ -289,10 +381,11 @@
         flex-direction: column;
         gap: 60px;
     }
-    
+
     .career-content {
         width: 100%;
     }
+
     .career-photo {
         width: 100%;
         padding: 40px;
@@ -304,5 +397,22 @@
 
     .career-vacancy-wrapper p {
         font-size: 18px;
+    }
+
+    /* CAREER SECTION CSS END */
+
+    /* FOOTER SECTION CSS START */
+    .footer-content-wrapper p {
+        text-align: center;
+    }
+
+    .footer-menu ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-terms-qa ul {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
