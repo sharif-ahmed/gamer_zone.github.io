@@ -27,28 +27,29 @@
         background-image: url('../img/group_14.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        padding: 50px;
+        padding: 120px 35px;
     }
 
     .btn-primary {
-        padding: 18px 30px;
+        font-size: 16px;
+        padding: 15px 25px;
     }
 
     .banner-content h4 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .banner-content h2 {
-        font-size: 90px;
+        font-size: 70px;
     }
 
     .banner-content p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .banner-content p i {
         margin-right: 5px;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     /* BANNER SECTION CSS END */
@@ -237,6 +238,10 @@
         line-height: 26px;
         font-size: 15px;
     }
+
+    .footer-social-link {
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -340,10 +345,6 @@
         text-align: center;
     }
 
-    /* .play-small-img img,
-    .play-small-right-img{
-        width: 50%;
-    } */
 
     .play-games-instant-section,
     .play-games-online-section {
@@ -352,7 +353,13 @@
         padding-right: 60px;
     }
 
+    .play-big-img {
+        position: sticky;
+        padding: 50px;
+    }
+
     .play-small-img {
+        width: 45%;
         left: -50px;
         bottom: -70px;
         position: absolute;
@@ -362,6 +369,7 @@
         position: absolute;
         right: -50px;
         bottom: -70px;
+        width: 45%;
     }
 
     .play-games-instant-section br,
@@ -414,5 +422,9 @@
     .footer-terms-qa ul {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .footer-social-link {
+        margin-bottom: 50px;
     }
 }
